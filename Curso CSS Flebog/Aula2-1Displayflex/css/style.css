@@ -1,0 +1,43 @@
+/* Flex */
+
+.flex {
+    display: flex;
+}
+
+/* Por padrão flex-wrap é nowrap, e util pois quando não cabe o conteudo na linha ele
+vai pra proxima linha */
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+/* serve pra ocupar tamanho maximo do container */
+.flex-item-1 {
+    flex: 1;
+}
+
+/* Flex item */
+
+.item {
+    margin: 5px;
+    background: tomato;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 1.25em;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #09f8a8;
+}
